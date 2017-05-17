@@ -1,6 +1,10 @@
-Demo project for issue: https://github.com/spring-projects/spring-boot/issues/9244
+[Fixed] Demo project for issue: https://github.com/spring-projects/spring-boot/issues/9244
 
 Run with `./gradlew facade:bootRun`
+
+#### Original code with bug
+https://github.com/dbacinski/spring-boot-issue-9244/tree/bug
+
 
 #### Logs
 
@@ -71,8 +75,6 @@ Caused by: java.io.FileNotFoundException: class path resource [xxx.properties] c
         ... 13 common frames omitted
 ```
 
-#### Fix
-https://github.com/dbacinski/spring-boot-issue-9244/pull/1/files
 
 
 
