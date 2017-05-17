@@ -19,9 +19,15 @@ repositories {
     maven { url "https://repo.spring.io/milestone" }
 }
 
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
+    }
+}
+
 dependencies {
-    compile("org.springframework.boot:spring-boot-starter-webflux:${springBootVersion}")
-    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+    compile("org.springframework.boot:spring-boot-starter-webflux")
+    testCompile("org.springframework.boot:spring-boot-starter-test")
 
     //Kotlin:
     compile("org.jetbrains.kotlin:kotlin-stdlib-jre8:${kotlinVersion}")
