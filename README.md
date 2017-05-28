@@ -72,7 +72,7 @@ Caused by: java.io.FileNotFoundException: class path resource [xxx.properties] c
 ```
 
 #### Fix
-https://github.com/dbacinski/spring-boot-issue-9244/pull/1/files
+https://github.com/dbacinski/spring-boot-issue-9244/pull/1/
 
 
 
